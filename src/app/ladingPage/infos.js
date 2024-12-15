@@ -12,7 +12,7 @@ const Infos = () => {
   return (
     <div className="relative min-h-screen flex flex-col justify-between">
       {/* Gradient Background */}
-      <div className="absolute mb-32 inset-0 bg-gradient-to-b from-white to-blue-100 rounded-b-[40rem]"></div>
+      <div className="absolute mb-52 inset-0 bg-gradient-to-b from-white to-blue-100 rounded-b-[40rem]"></div>
 
       {/* Header Section */}
       <header className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-16 text-center lg:text-left">
@@ -49,7 +49,7 @@ const Infos = () => {
       </section>
 
       {/* Trusted Companies Section */}
-      <footer className="bg-white py-10">
+      <footer className="bg-white py-10 mt-44">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <p className="text-sm text-gray-500 mb-4">Trusted by 100+ Companies across the globe!</p>
           <div className="flex justify-center items-center space-x-6">
